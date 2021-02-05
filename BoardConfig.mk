@@ -107,6 +107,9 @@ TW_NO_USB_STORAGE := true
 # Show build time on the splash screen
 TW_DEVICE_VERSION=$(shell date '+%Y%m%d')
 
+# ramdisk COmpression
+LZMA_RAMDISK_TARGETS := recovery
+
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 
